@@ -1,8 +1,12 @@
 # Text Classification - Fanfic POV
 Classifying Fanfiction from Archive of Our Own (Ao3) as either First, Second, or Third Person using Statistical/Machine Learning Algorithms
 ## Current Content:
-  * Notebook on Data Gathering and cleaning
-  * Notebook on Feature Engineering
+  * Notebook on Data Extraction
+     * Used Archivist.py to scrape Work Id's and first chapter tests from Ao3
+  * Notebook on Cleaning & Feature Engineering
+     * Removed html artifacts from text. 
+     * Tokenized by words and by sentences. 
+     * Created features based on frequency ratios for key words that 1. appear anywhere 2. begin a sentence 
   * Notebook on training ML models
       * Logistic Regression: 86% Accuracy
       * K Nearest Neighbors: 93% Accuracy
