@@ -6,6 +6,7 @@ Classifying Fanfiction from Archive of Our Own (Ao3) as either First, Second, or
   * Notebook on training ML models
       * Logistic Regression: 86% Accuracy
       * K Nearest Neighbors: 93% Accuracy
+       *  <img src="https://github.com/Kya-Allen/Text-Classification---Fanfic-POV/blob/main/Data/LogReg.PNG" width="250" height="250"> <img src="https://github.com/Kya-Allen/Text-Classification---Fanfic-POV/blob/main/Data/KNN.PNG" width="250" height="250">
 ## Planned Directions:
   * Implement more models:
     * Random Forest
